@@ -1959,6 +1959,7 @@
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-7.1.2.tgz#1e25e88acab8198858960f6ef7ae02e6c9f7139f"
   integrity sha512-Jx8KuKqEAVRsK6fMzZKv3h6UH9/NRDHsDRtUAROqqmZlCptM///Uef7A1ViZ/cbDplekz7VbDWdFLAZ/mpuDww==
+
   dependencies:
     "@octokit/tsconfig" "^2.0.0"
     "@octokit/types" "^9.3.2"
@@ -1968,6 +1969,7 @@
   resolved "https://registry.yarnpkg.com/@octokit/plugin-retry/-/plugin-retry-5.0.4.tgz#c726c0e4e3fcd3b34a010e709f2c8b92cce1915a"
   integrity sha512-hw00fDIhOgijy4aSxS6weWF5uqZVeoiC/AptLLyjL8KFCJRGRaXfcfgj76h/Z3cSLTjRsEIQnNCTig8INttL/g==
   dependencies:
+
     "@octokit/request-error" "^4.0.1"
     "@octokit/types" "^10.0.0"
     bottleneck "^2.15.3"
@@ -2160,7 +2162,6 @@
     execa "^5.0.0"
     lodash "^4.17.4"
     parse-json "^5.0.0"
-
 "@semantic-release/git@^10.0.1":
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-10.0.1.tgz#c646e55d67fae623875bf3a06a634dd434904498"
